@@ -1,0 +1,58 @@
+﻿body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+
+    display: inline-block;
+
+}
+
+#colorPicker {
+
+    width: 80px;
+    margin-bottom: 5px;
+
+}
+
+.box {
+
+    padding: 15px;
+
+}
+
+.textBox {
+
+    background-color: white;
+
+}
+
+#container {
+
+    display: block;
+
+}
+
+#droptainer {
+
+    margin-top: 128px;
+
+}
+
+#droptainer, #droptainer div {
+
+    display: inline-block;
+    padding: 28px;
+    border: solid 1px #000000;
+
+    transition: 0.5s ease-in-out;
+
+}
+
+.tools {
+
+    position: absolute;
+    display: block;
+    z-index: 99;
+
+}

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="Script.js"></script>
+    <link href="Style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div id="input" class="container">
+        <label>Name</label>
+        <input type="text" id="name" />
+        <br />
+
+        <label>Surname</label>
+        <input type="text" id="surname" />
+        <br />
+
+        <label>Date of Birth</label>
+        <input type="date" id="dob" placeholder="yyyy-mm-dd"/>
+        <br />
+
+        <label>Car</label>
+        <select id="car">
+        </select>
+    </div>
+       
+    <div class="container">
+        <input type="button" id="btnClick" onclick="printTxt()" value="Print" />
+    </div>
+
+    <div class="container">
+        <label id="text"></label>
+    </div>
+
+
+</body>
+</html>

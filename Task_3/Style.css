@@ -1,0 +1,15 @@
+﻿body {
+
+    padding: 50px;
+
+}
+
+.box {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+.red {
+    background-color: red;
+}

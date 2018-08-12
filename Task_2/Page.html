@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="Script.js"></script>
+    <link href="Style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="tools">
+        <input type="color" id="colorPicker" onchange="selected(this)" />
+        <input type="button" onclick="randomize(document.getElementById('droptainer'));" value="Random" />
+        <br />
+        <div id="container">
+
+        </div>
+    </div>
+
+    <div id="droptainer" ondrop="drop(event)" ondragover="dragOver(event)">
+    </div>
+</body>
+</html>

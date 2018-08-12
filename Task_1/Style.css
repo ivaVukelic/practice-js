@@ -1,0 +1,19 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+
+    width : 256px;
+    padding : 5px;
+    margin : 0 auto;
+
+}
+
+    .container:first-of-type {
+
+        border : 2px solid #bf10ac;
+        border-radius : 5px;
+
+    }
+
